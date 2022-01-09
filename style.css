@@ -1,5 +1,5 @@
 
-body{
+*{
     margin: 0;
     padding: 0;
 }
@@ -14,7 +14,7 @@ body{
     background-image: url(track.jpeg);
     background-repeat: repeat-x;
     position: absolute;
-    bottom: -60px;
+    bottom: -55px;
     width: 1000vw;
     height: 20vh;
     animation: trackanimation 6s linear infinite;
@@ -29,6 +29,7 @@ body{
     bottom: 40px;
     left: 350px;
 }
+
 
 @keyframes trackanimation{
      
