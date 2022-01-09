@@ -1,10 +1,10 @@
 
-*{
+body{
     margin: 0;
     padding: 0;
 }
 
-.tree{
+.background{
     height: 100vh;
     background-image: url(9.jpg);
     background-repeat:no-repeat;
@@ -14,7 +14,7 @@
     background-image: url(track.jpeg);
     background-repeat: repeat-x;
     position: absolute;
-    bottom: -55px;
+    bottom: -60px;
     width: 1000vw;
     height: 20vh;
     animation: trackanimation 6s linear infinite;
@@ -26,16 +26,10 @@
     width: 9rem;
     height: 9rem;
     position: absolute;
-    bottom: 65px;
+    bottom: 40px;
     left: 350px;
 }
 
-@keyframes wheelanimation{
-
-    100%{
-        transform: rotate(360deg);
-    }
-}
 @keyframes trackanimation{
      
     100%{
